@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--START: Open Graph -->
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image" content="" />
+    <!--END: Open Graph -->
+
+    <!-- START: reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css" rel="stylesheet"/>
+    <!-- END: Font Awesome -->
+
+    <!--START: Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- END: Bootstrap -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Product Page</title>
+</head>
+<body>
+
+  <section class="header_mobile">
+
+    <a href="#" class="prev-btn"><i class="fas fa-chevron-left"></i></a>
+
+    <form class="form_search form-inline">
+      <i class="form_search-icon fas fa-search"></i>
+      <input id="form_search-input" class="form-control" type="search" placeholder="Para onde você vai?" aria-label="Search">
+    </form>
+      
+  </section>
+  
+  <main class="main">
+
+    <section class="maps">
+      <img src="./assets/mapa.png" alt="mapa">
+    </section>
+
+    <section class="products">
+
+        <p class="products_desc">Mais de 300 acomodações · 12 de mai. - 13 de mai. · 1 hóspede</p>
+        <h1 class="products_title">Acomodações em Rio de Janeiro</h1>
+        
+        <ul class="products_filter">
+            <li class="filter_item">Tipo de lugar</li>
+            <li class="filter_item">Preço</li>
+            <li class="filter_item">Mais Filtros</li>
+        </ul>
+
+        <div id="product_list" class="product_list"></div>
+ 
+    </section>
+
+    <section class="maps_desk">
+      <img src="./assets/mapa-desk.png" alt="mapa">
+    </section>
+
+  </main>
+
+  
+  <!--SRTAR: Bootstrao scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- END: Bootstrap script -->
+  
+  <script src="./script/script.js"></script>
+</body>
+</html>
